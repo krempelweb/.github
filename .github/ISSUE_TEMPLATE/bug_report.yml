@@ -80,7 +80,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      ## Addition Information
+      ## Additional Information
       Is there anything else you want to mention or that will give more context about the issue:
 - type: textarea
   id: remarks
