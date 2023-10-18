@@ -25,12 +25,13 @@ body:
     validations:
       required: true
   - type: textarea
-    id: usm-reference
+    id: references
     attributes:
-      label: User journey map
-      description: If applicable, please provide a reference to the related processes/steps in the User Journey Map.
+      label: References
+      description: If applicable, please provide references to related User Journey Map issues, mockups, etc. (one at a line).
       placeholder: |
-        [Process]: [Step number], [Step number], ...
-        [Process]: [Step number], ...
+        USM #[issue] Steps: [step number], [step number], ...
+        Mockup: [link to file]
+        ...
     validations:
       required: false
