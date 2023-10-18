@@ -57,6 +57,26 @@ body:
     description: Paste complete URL here.
   validations:
     required: false
+- type: dropdown
+  id: client
+  attributes:
+    label: Client
+    options:
+      - Web: Chrome
+      - Web: Edge
+      - Web: Firefox
+      - Web: Safari
+      - Mobile: iOS
+      - Mobile: Android
+  validations:
+    required: false
+- type: input
+  id: user
+  attributes:
+    label: User
+    description: Logged in user account
+  validations:
+    required: false
 - type: markdown
   attributes:
     value: |
