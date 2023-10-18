@@ -18,7 +18,6 @@ body:
       label: Acceptance criteria
       description: These criteria must be met for the user story to be accepted as done.
       placeholder: |
-        Please list fields, options and actions provided to the enduser and how the system should react.
         - The user can enter login the user name and password in separate fields.
         - The password field hides the entered characters.
         - After the button "Login" is clicked the system checks the given credentials.
