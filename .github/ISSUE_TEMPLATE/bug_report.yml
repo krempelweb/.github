@@ -4,7 +4,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      ### Bug
+      ## Bug
       Please provide clear and concise descriptions about the bug:
 - type: textarea
   id: description
@@ -32,7 +32,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      ### System
+      ## System
       Please give some information where the bug occurred:
 - type: dropdown
   id: environment
@@ -60,7 +60,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      ### Remarks
+      ## Remarks
       Is there anything else you want to mention or that will give more context about the issue:
 - type: textarea
   id: remarks
