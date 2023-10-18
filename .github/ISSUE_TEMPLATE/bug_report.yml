@@ -2,22 +2,25 @@ name: Bug Report
 description: Create a report about something that is not working
 body:
 - type: textarea
+  id: description
   attributes:
     label: Description
     description: A clear and concise description of what the bug is.
   validations:
     required: true
 - type: textarea
+  id: behaviour
   attributes:
     label: Expected behavior
     description: A clear and concise description of what you expected to happen.
   validations:
     required: false
 - type: textarea
+  id: reproduce
   attributes:
     label: Steps To reproduce
-    description: |
-      Steps to reproduce the behavior:
+    description: Steps to reproduce the behavior:
+    placeholder: |
       1. Go to '...'
       2. Click on '....'
       3. Scroll down to '....'
@@ -25,6 +28,7 @@ body:
   validations:
     required: false
 - type: dropdown
+  id: environment
   attributes:
     label: Environment
     options:
@@ -34,20 +38,23 @@ body:
   validations:
     required: false
 - type: input
+  id: module
   attributes:
     label: App/Module
     description: In which app or module did the error occur?
   validations:
     required: false
 - type: input
+  id: url
   attributes:
     label: URL
     description: Paste the URL of the website here.
   validations:
     required: false
 - type: textarea
+  id: remarks
   attributes:
     label: Remarks
-    description: Anything that will give us more context about the issue you are encountering!
+    description: Anything that will give more context about the issue you are encountering.
   validations:
     required: false
