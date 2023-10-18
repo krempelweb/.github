@@ -1,5 +1,5 @@
 name: User Story
-description: Create a user story to define a requirement to be implemented
+description: Create a user story to define a requirement and its acceptance criteria.
 body:
   - type: markdown
     attributes:
@@ -28,9 +28,9 @@ body:
     id: references
     attributes:
       label: References
-      description: If applicable, please provide references to related User Journey Map issues, mockups, etc. (one at a line).
+      description: If applicable, please provide references to related user journey map steps, mockups, etc. (one at a line).
       placeholder: |
-        USM #[issue] Steps: [step number], [step number], ...
+        USM: [Process] / [Step number] - [Step number], [Step number], ...
         Mockup: [link to file]
         ...
     validations:
