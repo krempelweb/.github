@@ -1,26 +1,27 @@
 name: Bug Report
 description: Create a report about something that is not working
 body:
+- type: markdown
+  attributes:
+    value: |
+      ### Bug
+      Please provide clear and concise descriptions about the bug:
 - type: textarea
   id: description
   attributes:
     label: Description
-    description: A clear and concise description of what the bug is.
   validations:
     required: true
 - type: textarea
   id: behaviour
   attributes:
     label: Expected behavior
-    description: A clear and concise description of what you expected to happen.
   validations:
     required: false
 - type: textarea
-  id: reproduce
+  id: steps
   attributes:
-    label: Steps To reproduce
-    description: |
-      Steps to reproduce the behavior:
+    label: Steps to reproduce
     placeholder: |
       1. Go to '...'
       2. Click on '....'
@@ -28,6 +29,11 @@ body:
       4. See error
   validations:
     required: false
+- type: markdown
+  attributes:
+    value: |
+      ### System
+      Please give some information where the bug occurred:
 - type: dropdown
   id: environment
   attributes:
@@ -41,21 +47,24 @@ body:
 - type: input
   id: module
   attributes:
-    label: App/Module
-    description: In which app or module did the error occur?
+    label: Module
   validations:
     required: false
 - type: input
   id: url
   attributes:
     label: URL
-    description: Paste the URL of the website here.
+    description: Paste complete URL here.
   validations:
     required: false
+- type: markdown
+  attributes:
+    value: |
+      ### Remarks
+      Is there anything else you want to mention or that will give more context about the issue:
 - type: textarea
   id: remarks
   attributes:
     label: Remarks
-    description: Anything that will give more context about the issue you are encountering.
   validations:
     required: false
