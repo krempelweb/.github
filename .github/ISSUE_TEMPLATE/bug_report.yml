@@ -25,12 +25,12 @@ body:
   validations:
     required: false
 - type: dropdown
-    attributes:
-      label: Environment
-      options:
-        - Development
-        - Non-Production
-        - Production
+  attributes:
+    label: Environment
+    options:
+      - Development
+      - Non-Production
+      - Production
   validations:
     required: false
 - type: input
