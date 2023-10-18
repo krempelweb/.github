@@ -25,7 +25,6 @@ body:
   validations:
     required: false
 - type: dropdown
-    id: environment
     attributes:
       label: Environment
       options:
